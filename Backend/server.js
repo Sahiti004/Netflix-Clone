@@ -26,7 +26,11 @@ app.post("/api/signup", async (req, res) => {
     expiresIn: "1h",
   });
 
-  res.status(201).json({ token });
+  res.status(201).json({
+    token,
+    email: user.email,
+    message: "Login successful"
+  });
   console.log("Users after signup:", users);
 
 });
