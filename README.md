@@ -1,4 +1,4 @@
-To run, download the code and run `npm start` in Frontend folder and `node server.js` in Backend folder
+To run, download the code and run `npm install` and `npm start` in the Frontend folder and `npm install` followed by `node server.js` in the Backend folder
 
 <img src="https://github.com/user-attachments/assets/de1cf71f-8569-4610-8ba1-37b2a7a8e203" alt="img" width="500">
 
