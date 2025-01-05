@@ -29,7 +29,7 @@ app.post("/api/signup", async (req, res) => {
   res.status(201).json({
     token,
     email: user.email,
-    message: "Login successful"
+    message: "Signup successful"
   });
   console.log("Users after signup:", users);
 
